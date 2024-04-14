@@ -1,0 +1,79 @@
+orange + false
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true - 17,76,14,94,24,80,45,13,58,14,86,60,98,77,16,4,1,86,99
+const capitalizeString = str => str.toUpperCase();
+7,2,41,44,6,91,14,5,18 - 64,32,19,32,37,88,94,11,62,4,36,16,7,87,91,15,99
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+4 / true
+class MyClass { constructor() { this.property = getRandomString(); } }
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findLargestNumber = numbers => Math.max(...numbers);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+// This is a comment
+false * kiwi
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getUniqueValues = array => [...new Set(array)];
+68 + true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+33 / 14
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const removeDuplicates = array => Array.from(new Set(array));
+23 / 88
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+true - banana
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+kiwi
+
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true - grape
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false + 61
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+orange
+
+const randomNumber = getRandomNumber();
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+true * 69
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+true / 67,79,50,13,96,23,21,55,68,73,30,12,49,94,64,35,24,37,66,13,72,41,61,85,33,29,98,3,27,30,54,46,28,44,35,29,47,16
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+grape - 19,28,39,76,59,66,37,59,2,97,68,53,10,88,22,26,40,23,30,25,33,24,88,68,19,35,93
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+// This is a comment
+76,85,0,89,58,14,33,85,93,49,70,44,64,95,56,78,54,62,14,20,84,85,23,35,90,8,77,20,94,38,49,40,47,92,96,1,24,75,15,36,80,0,86,74,56,78,94,61,66,5,95,58,44,96,37,32,90,66,6,71,11,97,46,29 - 76,38,18,81,98,84,58,67,59,95,58,36,11,92,57,51,68,70,5,93,66,14,40,58,41,24,82,59,70,64,94,20,36,60,75,98,46,82,11,99,17,14,3,16,28,61,42,22,24,46,8,21,13,22,87,37,30,37,68,40,6,8,89,18,62,4,18,97,42,29,89,8,27,10,98,13,3,72,84
+const isEven = num => num % 2 === 0;
+kiwi
+
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
