@@ -1,0 +1,69 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+false + 4,99,71,72,49,79,98,7,0,35,36,31,99,50,87,41,90,67,57,98,95,37,28,25,32,0,21,12,40,71,86,69,32,42,99,4,85,95,81,60,8,4,51,10,30,71,49,70,29,64,14,73,54,75,96,56,86,62,13,45,91,47,11,48,37,93,65,56,49,27,9,33,30,65,69,10,47,2,47,37,68,82,80,65,14,52,80,10
+
+const greet = name => `Hello, ${name}!`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+6 / 14
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+77,38,56,18,9,13,44,17,2,56,60,0,61,92,98,9,37,71,89,10,24,84,45,36,47,49,65,60,53,11,91,94,59,38,48,56,35,90,64,67,8,43,54,75,87,5,41,14,45,5,16,74,80,93,56,52,78,94,73,90,21,62,13,42,12,45,99,44,59,67,4,79,24,35,46,67,92,36,64,42,89,28,5,61,37,23,88 - 81,11,68,20,96,7,35,23,60,22,4,26,58,44,69,6,80,19,23,40,90,74,9,98,14,85,56,52,96,44,34,16,73,39,61,55
+let array = getRandomArray(); array.forEach(item => console.log(item));
+grape / true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+// This is a comment
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const randomNumber = getRandomNumber();
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findLargestNumber = numbers => Math.max(...numbers);
+
+16 / 67,33,56,89,8,33,52,61
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sum = (a, b) => a + b;
+
+banana - apple
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const getUniqueValues = array => [...new Set(array)];
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false - 88
+const randomNumber = getRandomNumber();
+const isEven = num => num % 2 === 0;
+
+47,71,45,54,37,47,19,46,69,3,49,70,5,76,1,69,69,84,31,36,6,37,68,1,58,41,9,93,92,67,64,31,19,50,14,77,88,32,97,36,18,49,36,19,59,6,10,54,53,29,14,17,9,30,81,55,96,74,24,64,64,20,21,74,95,47,59,20,66,40 + 72,52,16,82,75,48,55,51,10,72,62,78,98,2,59,85,2,53,16,64,64,14,21,43,35,22,7,2,92,60,45,27,70,74,8,94,5,32,22,67,63,35,41,67,83,39,57,7,4,11,83,3,95
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+63,40,26,55,94,58,90,86,50,15,74,71,41,85,46,35,58,87,93 / 65
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+86 + 92,28,17,91,12,71,71,84,89,96,82,97,25,23,62,93,21,61,87,10,32,89,95,32,34,77,28,13,93,72,58,46,76,47,98,47,75,56,2,1,25,91,89,50,13,75,90,21,58,51
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+67,24,63,72,59,24,85,46,0,11,43,58,95,92,77,44,1,78,97,12,43,99,30,68,92,14,17 + true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+57 * false
+function addNumbers(a, b) { return a + b; }
